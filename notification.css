@@ -1,0 +1,85 @@
+body {
+  background-color: #262b2a;
+}
+.card-notif {
+  position: fixed;
+  width: 342px;
+  height: 80px;
+  right: 20px;
+  top: 34px;
+
+  background: #fafafa;
+  box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.2);
+  border-radius: 5px;
+}
+
+.box-image {
+  position: absolute;
+  width: 68px;
+  height: 62px;
+  left: 9.5px;
+  top: 9px;
+
+  background: #262b2a;
+  box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.2);
+  border-radius: 5px;
+}
+
+.avatar-image {
+  margin-left: 3px;
+  width: 62px;
+  height: 62px;
+}
+
+.title,
+.message,
+.loading,
+.close {
+  position: absolute;
+  left: 100px;
+}
+
+.title {
+  top: 17px;
+  font-family: "Plus Jakarta Sans-ExtraBold", helvetica;
+  font-size: 18px;
+  font-weight: 800;
+  color: #28a745;
+}
+
+.message {
+  top: 45px;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-size: 11px;
+  color: #737373;
+}
+
+.loading {
+  top: 68px;
+  width: 221px;
+  height: 2.5px;
+  border-radius: 1px;
+  animation: shrink 3s ease-in-out forwards;
+  background-color: #28a745;
+}
+
+.close {
+  width: 20px;
+  height: 18.24px;
+  left: 330px;
+  top: -5px;
+  border-radius: 50px;
+}
+
+.bg-fill {
+  fill: #28a745;
+}
+
+@keyframes shrink {
+  from {
+    width: 221px; 
+  }
+  to {
+    width: 0px; 
+  }
+}
